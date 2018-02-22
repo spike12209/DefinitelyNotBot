@@ -196,5 +196,11 @@ client.on('message', message => {
 });
 
 
+client.on('message', message => {
+    if (message.content === 'Byakuya 1v1 me on the streets') {
+    	message.reply('ight bet i get spike im gonna win');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
