@@ -143,7 +143,7 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-    if (message.content === '<3')
+    if (message.content === '<3') {
     	message.reply('i love spike')
   	}
 });
