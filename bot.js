@@ -17,5 +17,13 @@ client.on('message', message => {
   	}
 });
 
+
+client.on('message', message => {
+    if (message.content === 'i love you jason') {
+    	message.channel.send('NO YOU LOVE ME!');
+  	}
+});
+
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
