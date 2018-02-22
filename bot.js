@@ -140,6 +140,8 @@ client.on('message', message => {
     	message.reply('whats funny eh?');
   	}
 });
+
+
 client.on('message', message => {
     if (message.content === '<3')
     	message.reply('i love spike')
