@@ -25,5 +25,12 @@ client.on('message', message => {
 });
 
 
+clent.on('message', message => {
+    if (message.content === 'NO HE LOVES ME >:C') {
+    	message.channel.send('NO NO NO NO HE LOVES ME');
+  	}
+});
+
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
