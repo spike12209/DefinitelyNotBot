@@ -329,5 +329,13 @@ client.on('message', message => {
 
 
 
+client.on('message', message => {
+    if (message.content === 'BYAKUYA ATTACK') {
+    	message.channel.send('HITS HITS HITS HITS HITS HITS HITS WE GONNA WIN THIS WAR HITS HITS HITS HITS HITS');
+  	}
+});
+
+
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
