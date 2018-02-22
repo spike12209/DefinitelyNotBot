@@ -120,6 +120,11 @@ client.on('message', message => {
     	message.reply('whats funny eh?');
   	}
 });
+lient.on('message', message => {
+    if (message.content === 'xd') {
+    	message.reply('whats funny eh?');
+  	}
+});
 
 
 // THIS  MUST  BE  THIS  WAY
