@@ -122,9 +122,27 @@ client.on('message', message => {
 });
 
 
-lient.on('message', message => {
+client.on('message', message => {
     if (message.content === 'xd') {
     	message.reply('whats funny eh?');
+  	}
+});
+
+
+client.on('message', message => {
+    if (message.content === 'xDDD') {
+    	message.reply('whats funny eh?');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'xDD') {
+    	message.reply('whats funny eh?');
+  	}
+});
+client.on('message', message => {
+    if (message.content === '<3{
+    	message.reply('i love spike')
   	}
 });
 
