@@ -257,5 +257,77 @@ client.on('message', message => {
 
 
 
+client.on('message', message => {
+    if (message.content === 'bet') {
+    	message.channel.send('ight ill win easily');
+  	}
+});
+
+
+
+client.on('message', message => {
+    if (message.content === 'nothing') {
+    	message.channel.send('thats what i thought');
+  	}
+});
+
+
+
+client.on('message', message => {
+    if (message.content === 'i love you ali') {
+    	message.channel.send('NO YOU LOVE ME!');
+  	}
+});
+
+
+
+client.on('message', message => {
+    if (message.content === 'i love you kyle') {
+    	message.channel.send('NO YOU LOVE ME!');
+  	}
+});
+
+
+
+client.on('message', message => {
+    if (message.content === 'l0l') {
+    	message.channel.send('whats funny?');
+  	}
+});
+
+
+
+client.on('message', message => {
+    if (message.content === 'i will beat you') {
+    	message.channel.send('nah ill beat you easily skid');
+  	}
+});
+
+
+
+client.on('message', message => {
+    if (message.content === 'nope') {
+    	message.channel.send('yes i will win because i got spike');
+  	}
+});
+
+
+
+client.on('message', message => {
+    if (message.content === 'spike') {
+    	message.channel.send('yes?');
+  	}
+});
+
+
+
+client.on('message', message => {
+    if (message.content === 'byakuya whats your favorite color?') {
+    	message.channel.send('pink like spikes');
+  	}
+});
+
+
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
