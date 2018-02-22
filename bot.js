@@ -153,11 +153,22 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'okie') {
+    	message.reply('ok*');
+  	}
+});
 
 
 client.on('message', message => {
     if (message.content === '<33') {
     	message.reply('i love spike')
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === '.') {
+    	message.reply('you gonna put me on hold like that?');
   	}
 });
 
