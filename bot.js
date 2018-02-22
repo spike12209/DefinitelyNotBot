@@ -161,6 +161,12 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'will you marry me byakuya') {
+    	message.reply('YES :D');
+  	}
+});
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
