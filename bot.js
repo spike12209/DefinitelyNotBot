@@ -37,6 +37,12 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'byakuya chill ;-;') {
+    	message.channel.send('NO NO NEVER *shoots at you*');
+  	}
+});
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
