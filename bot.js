@@ -103,6 +103,23 @@ client.on('message', message => {
     	message.reply('NO');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'XD') {
+    	message.reply('WHATS FUNNY?!');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'lol') {
+    	message.reply('whats funny eh?');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'LOL') {
+    	message.reply('whats funny eh?');
+  	}
+});
 
 
 // THIS  MUST  BE  THIS  WAY
