@@ -68,6 +68,42 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'NO') {
+    	message.reply('YES!');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'no') {
+    	message.reply('YES');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'im not smart') {
+    	message.reply('YES YOU ARE');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'i love you ali') {
+    	message.reply('i love you spike');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'yes') {
+    	message.reply('NO');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'YES') {
+    	message.reply('NO');
+  	}
+});
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
