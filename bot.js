@@ -182,5 +182,13 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'attack me byakuya') {
+    	message.channel.send('hits hits hits hits hits hits hits HAHHAHAHAHA  HITS 1v1 me in the streets b');
+  	}
+});
+
+
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
