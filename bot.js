@@ -191,7 +191,7 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-    if (message.content === ':'c') {
+    if (message.content === ':c') {
     	message.channel.send('dont be sad');
   	}
 });
@@ -216,6 +216,46 @@ client.on('message', message => {
     	message.reply('yes i did set you up');
   	}
 });
+
+
+client.on('message', message => {
+    if (message.content === 'ali') {
+    	message.channel.send('foucus on me');
+  	}
+});
+
+
+client.on('message', message => {
+    if (message.content === 'jason') {
+    	message.channel.send('foucus on me');
+  	}
+});
+
+
+
+client.on('message', message => {
+    if (message.content === 'kyle') {
+    	message.channel.send('focus on me');
+  	}
+});
+
+
+
+client.on('message', message => {
+    if (message.content === 'i do') {
+    	message.channel.send(';D');
+  	}
+});
+
+
+
+client.on('message', message => {
+    if (message.content === '1v1 me') {
+    	message.channel.send('ILL BEAT YOU');
+  	}
+});
+
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
