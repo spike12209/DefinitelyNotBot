@@ -189,6 +189,12 @@ client.on('message', message => {
 });
 
 
+client.on('message', message => {
+    if (message.content === 'i hate you byakuya') {
+    	message.channel.send('but spike loves me <3');
+  	}
+});
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
