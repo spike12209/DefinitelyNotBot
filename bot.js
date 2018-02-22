@@ -156,6 +156,13 @@ client.on('message', message => {
 
 
 client.on('message', message => {
+    if (message.content === 'e,e') {
+    	message.reply('OI WHAT YOU MAKING THE FACE FOR 1V1 ME IN THE STREETS SENBONGETSU')
+  	}
+});
+
+
+client.on('message', message => {
     if (message.content === '<33') {
     	message.reply('i love spike')
   	}
