@@ -141,6 +141,13 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === '.') {
+    	message.reply('you gonna put me on hold like that?');
+  	}
+});
+
+
 
 client.on('message', message => {
     if (message.content === '<33') {
