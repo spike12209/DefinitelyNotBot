@@ -189,6 +189,14 @@ client.on('message', message => {
 });
 
 
+
+client.on('message', message => {
+    if (message.content === ':'c') {
+    	message.channel.send('dont be sad');
+  	}
+});
+
+
 client.on('message', message => {
     if (message.content === 'i hate you byakuya') {
     	message.channel.send('but spike loves me <3');
