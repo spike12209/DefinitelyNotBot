@@ -44,5 +44,12 @@ client.on('message', message => {
 });
 
 
+client.on('message', message => {
+    if (message.content === 'xD') {
+    	message.channel.send('aye b whats so funny eh*');
+  	}
+});
+
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
