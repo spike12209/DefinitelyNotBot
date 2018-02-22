@@ -32,6 +32,12 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+    if (message.content === 'Yes i am.') {
+    	message.channel.send('why tho? i thought you loved me');
+  	}
+});
+
+client.on('message', message => {
     if (message.content === ';-;') {
     	message.reply('WHAT YOU MAKEING THAT FACE FOR YOU TRYING TO HIT ON SPIKE?!');
   	}
