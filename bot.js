@@ -202,5 +202,12 @@ client.on('message', message => {
   	}
 });
 
+
+client.on('message', message => {
+    if (message.content === 'BRUV') {
+    	message.reply('yes i did set you up');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
