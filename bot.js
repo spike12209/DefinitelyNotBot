@@ -220,14 +220,14 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'ali') {
-    	message.channel.send('foucus on me');
+    	message.channel.send('focus on me');
   	}
 });
 
 
 client.on('message', message => {
     if (message.content === 'jason') {
-    	message.channel.send('foucus on me');
+    	message.channel.send('focus on me');
   	}
 });
 
